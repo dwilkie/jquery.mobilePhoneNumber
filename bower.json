@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "main": "lib/jquery.mobilePhoneNumber.js",
   "dependencies": {
-    "jquery": ">=1.5"
+    "jquery": ">=1.5",
+    "jquery.caret": ">=1.3.2"
   }
 }

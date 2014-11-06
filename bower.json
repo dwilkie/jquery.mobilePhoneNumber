@@ -8,7 +8,9 @@
     "node_modules",
     "src",
     "test",
-    "vendor"
+    "vendor",
+    "mobilephonenumber.jquery.json",
+    "package.json"
   ],
   "dependencies": {
     "jquery": ">=1.5",

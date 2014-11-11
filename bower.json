@@ -14,6 +14,6 @@
   ],
   "dependencies": {
     "jquery": ">=1.5",
-    "jquery-caretjs": ">=1.3.2"
+    "jquery-caretjs": ">=1.3.3"
   }
 }

@@ -13,9 +13,7 @@
     "package.json"
   ],
   "dependencies": {
-    "jquery": ">=1.5"
-  },
-  "resolutions": {
-    "caret": "readd_version"
+    "jquery": ">=1.5",
+    "caret": "caret-version#~1.3.3"
   }
 }

@@ -14,7 +14,7 @@ document.createElement = ->
   el
 
 require('../src/jquery.mobilePhoneNumber')
-require('../bower_components/jquery-caretjs/jquery.caret.js')
+require('../bower_components/caret/jquery.caret.js')
 
 createInput = ->
   $input = $('<input type=text>')

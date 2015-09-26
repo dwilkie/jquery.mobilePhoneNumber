@@ -74,7 +74,7 @@ describe 'jquery.mobilePhoneNumber', ->
       $phone = createInput().val('').mobilePhoneNumber({ defaultPrefix: '+81' })
 
       type $phone, '08043691337'
-      assert.equal $phone.val(), '0804-369-1337'
+      assert.equal $phone.val(), '080-4369-1337'
 
     it 'should correctly format BE phone', ->
       $phone = createInput().val('').mobilePhoneNumber()
@@ -122,11 +122,15 @@ describe 'jquery.mobilePhoneNumber', ->
       $phone = createInput().val('123456789').mobilePhoneNumber()
 
       $phone.get(0).selectionStart = 0
-      $phone.get(0).selectionEnd = 10
+      $phone.get(0).selectionEnd = 20
 
       type $phone, '0'
 
       assert.equal $phone.val(), '+0'
+
+    it 'should correctly format the current value before typing', ->
+      $phone = createInput().val('4151234567').mobilePhoneNumber({ defaultPrefix: '+1' })
+      assert.equal $phone.val(), '(415) 123-4567'
 
   describe 'mobilePhoneNumber("country")', ->
     it 'should correctly find the country', ->

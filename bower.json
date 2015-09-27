@@ -1,6 +1,6 @@
 {
   "name": "jquery.mobilephonenumber",
-  "version": "1.0.9",
+  "version": "1.0.6",
   "main": "lib/jquery.mobilePhoneNumber.js",
   "ignore": [
     "bower_components",
@@ -14,6 +14,6 @@
   ],
   "dependencies": {
     "jquery": ">=1.5",
-    "caret": "caret-version#~1.3.3"
+    "caret-version": "caret-version#~1.3.3"
   }
 }

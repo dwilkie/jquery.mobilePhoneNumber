@@ -1,6 +1,6 @@
 {
   "name": "jquery.mobilephonenumber",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "lib/jquery.mobilePhoneNumber.js",
   "ignore": [
     "bower_components",

@@ -1,5 +1,5 @@
 {
-  "name": "jquery.mobilephonenumber",
+  "name": "jquery.mobilePhoneNumber",
   "version": "1.0.71",
   "main": "lib/jquery.mobilePhoneNumber.js",
   "ignore": [
